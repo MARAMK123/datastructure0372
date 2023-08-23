@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int i,n,t1,t2,tn;
+	printf("no of elements");
+	scanf("%d",&n);
+	printf("0");
+	for(i=2;i<=n;i++)
+	{
+		tn=t1+t2;
+		t1=t2;
+		t2=tn;
+		printf("%d",tn);
+	}
+}
